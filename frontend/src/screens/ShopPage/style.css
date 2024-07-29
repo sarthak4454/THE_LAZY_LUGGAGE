@@ -1,0 +1,108 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  .shoppage {
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* margin-top: 10%; */
+  }
+
+  .shop-items>h3
+  {
+    padding-left : 10%;
+  }
+  .list-type
+  {
+    list-style : none;
+    color : grey;
+   
+  }
+  .list-items
+  {
+    margin-top: 3%;
+    padding-left: 10%;
+  }
+  
+  #left {
+    width: 30%;
+    height: 100%;
+    
+    position: sticky;
+    top: 50px;
+    
+  }
+
+  #left>h1
+  {
+    font-size: 4em;
+   
+  }
+  
+  #right {
+    height: 100%;
+    width: 70%;
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap : 5px;
+  }
+  
+  .shop-items {
+    height: 70vh;
+    margin-left: 5%;
+    margin-top: 10%;
+    position: sticky;
+   
+  }
+  
+  .card {
+    height: 130vh;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+   
+
+  }
+  
+  .right-card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: opacity 0.1s; 
+  }
+  
+  .right-image {
+    height: 90%;
+    width: 100%;
+    background-size: cover;
+   
+  
+  }
+  
+  .caption {
+    height: 10%; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding-top:-25%;
+
+   
+  }
+  

@@ -1,0 +1,42 @@
+.wrapper
+{
+
+display: flex;
+
+justify-content: space-around;
+align-items: center;
+
+
+
+}
+
+.content-box
+{
+    
+    border: 1px solid black;
+    height: 800px;
+    width: 500px;
+
+    margin-top:1000px;
+}
+
+
+#left-box
+{
+
+    height: 800px;
+    width:450px;
+    position:sticky;
+    /* top: 0;
+    left: 0; */
+}
+#right-box
+{
+    height: 800px;
+    width:700px;
+    position: static;
+    /* margin-left: 600px; */
+    overflow: scroll;
+    
+
+}

@@ -1,0 +1,90 @@
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    background-color: white;
+    
+  }
+  
+  .container
+  {
+    
+    
+    
+    
+    height: 500px;
+    width: 800px;
+
+
+  }
+
+  .img-div
+  {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px ;
+    height: 80px;
+    width: 780px ;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-div
+   {
+
+    margin-top: -250px;
+    margin-left: 5px;
+    margin-right: 5px ;
+    height: 320px;
+    width: 1000px ;
+    
+    display: flex;
+    
+    margin-left: -100px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+   }
+  .left-button, .right-button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;  /* Increase font size */
+    font-weight: bold;  /* Make text bold */
+    cursor: pointer;
+    display: block;
+    
+    
+  }
+  
+  
+  .left{
+    
+    padding-top: 310px;
+    
+  }
+
+  .right
+
+  {
+   
+    align-self: flex-end;
+   
+  
+   
+  }
+
+
+  
+  
+  
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+   
+ 

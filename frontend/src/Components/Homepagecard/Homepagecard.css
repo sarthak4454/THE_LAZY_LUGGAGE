@@ -1,0 +1,193 @@
+/* .home-content
+{
+  height: 200vh; */
+  /* width: 100vw; */
+  /* display: flex;
+}
+
+.left-content
+{
+  width: 50%;
+  height: 100%;
+  
+  padding: 20px;
+  position: sticky;
+  top: 20px;
+}
+
+.right-content
+{
+  /* width: 50%;
+  height: 100%;
+ 
+  position: scroll; */
+
+
+*
+{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+.home-content
+{
+  /* height: 200vh; */
+  width: 90%;
+  display: flex;
+  
+  margin-top: 20px;
+
+  margin-left:0;
+  margin-right:0;
+  /* border:1px solid black; */
+}
+
+.left-content
+{
+  width: 50%;
+  height: 1000px;
+  
+  padding: 50px;
+  position: sticky;
+}
+
+/* .left-content-title-1
+{
+
+  position: sticky;
+  top: 50px;
+  font-size: 50px;
+  color: grey;
+}
+
+
+.left-content-title-2
+{
+  position: sticky;
+  top: 170px;
+  font-size: 40px;
+}
+
+.left-content-title-3
+{
+  position: sticky;
+  top: 240px;
+  left: 80px;
+
+  padding-left: 50px;
+  font-size: 40px;
+} */
+
+/* Homepagecard.css */
+
+.home-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.left-content {
+  width: 50%;
+  padding: 50px;
+  position: sticky;
+  top: 0;
+}
+
+.left-content-title-1 {
+  font-size: 50px;
+  color: grey;
+}
+
+.left-content-title-2 {
+  font-size: 40px;
+  margin-top: 20px; /* Ensure there's space between titles */
+}
+
+.left-content-title-3 {
+  font-size: 40px;
+  padding-left: 50px;
+  margin-top: 20px; /* Ensure there's space between titles */
+}
+
+.left-sticky {
+  position: sticky;
+  top: 150px;
+}
+
+.right-content {
+  width: 50%;
+  padding-right: 0;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .left-content
+  {
+    position:static;
+  }
+  .left-content-title-1 {
+    font-size: 40px;
+  }
+
+  .left-content-title-2 {
+    font-size: 30px;
+  }
+
+  .left-content-title-3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-content
+  {
+    position:static;
+  }
+  .home-content {
+    flex-direction: column;
+  }
+
+  .left-content, .right-content {
+    width: 100%;
+  }
+
+  .left-content {
+    padding: 30px;
+  }
+
+  .image {
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .left-content-title-1 {
+    font-size: 30px;
+  }
+
+  .left-content-title-2 {
+    font-size: 25px;
+  }
+
+  .left-content-title-3 {
+    font-size: 25px;
+  }
+
+  .left-content {
+    padding: 20px;
+    position:static;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+}
+

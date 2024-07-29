@@ -1,0 +1,16 @@
+.MainScreen
+{
+
+    /* border:1px solid black; */
+    
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    /* width: 100vw; */
+    /* margin-top:100%; */
+    /* min-height:100vh; */
+    /* max-height:1000%; */
+
+    max-height:100000vh;
+}
+

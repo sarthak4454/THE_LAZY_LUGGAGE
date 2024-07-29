@@ -1,0 +1,87 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.Header.scrolled {
+  background-color: white;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.menu-toggle {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.right-icons {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+}
+
+.close-icon {
+  margin-left: 55px;
+  margin-top: 20px;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.logo {
+  padding-left: 4%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* CSS rules for extra small devices */
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* CSS rules for small devices */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* CSS rules for medium devices */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* CSS rules for large devices */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* CSS rules for extra large devices */
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* CSS rules for extra extra large devices */
+}

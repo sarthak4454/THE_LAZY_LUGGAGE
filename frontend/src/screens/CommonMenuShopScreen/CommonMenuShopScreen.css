@@ -1,0 +1,21 @@
+.common-screen-list {
+    list-style: none;
+    font-size: 3em; /* Large font size */
+    font-weight: 900; /* Extra bold text */
+    margin-top: 20px; /* Move the text a bit lower */
+    padding-left: 5%;
+}
+
+.common-screen-list{
+    /* margin-bottom: 40px;  */
+
+}
+
+.common-screen-list li a {
+    color: black;
+    text-decoration: none;
+}
+
+.common-screen-list li a:hover {
+    color: grey; /* Hover effect */
+}
